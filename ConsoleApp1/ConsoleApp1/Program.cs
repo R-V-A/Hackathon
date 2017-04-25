@@ -21,9 +21,21 @@ namespace ConsoleApp1
 
             MainCharacter P = new MainCharacter(coordinates);
 
-            var action = Console.ReadLine();
-            if (action == "1")
-                P._coordinates.y ++ ;
+            while (true)
+            {
+                if (P._coordinates.x == 25 || P._coordinates.y == 25)
+                    break;
+                var action = Console.ReadLine();
+                switch (action)
+                {
+                    case "6": P._coordinates.x++; break;
+                    case "8": P._coordinates.y++; break;
+                    case "4": P._coordinates.x--; break;
+                    case "2": P._coordinates.y--; break;
+                    default: break;
+                }
+                Console.WriteLine(P.Show(P._coordinates));
+            }
 
             Console.WriteLine(P.Show(P._coordinates));
             Console.ReadKey();
