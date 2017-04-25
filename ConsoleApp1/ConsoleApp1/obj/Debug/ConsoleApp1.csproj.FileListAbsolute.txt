@@ -6,3 +6,11 @@ c:\users\administrator\documents\visual studio 2017\Projects\ConsoleApp1\Console
 c:\users\administrator\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.GenerateResource.Cache
 c:\users\administrator\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 c:\users\administrator\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Administrator\Source\Repos\Hackathon\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Administrator\Source\Repos\Hackathon\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Administrator\Source\Repos\Hackathon\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Administrator\Source\Repos\Hackathon\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Source\Repos\Hackathon\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.Properties.Resources.resources
+C:\Users\Administrator\Source\Repos\Hackathon\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.GenerateResource.Cache
+C:\Users\Administrator\Source\Repos\Hackathon\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Administrator\Source\Repos\Hackathon\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
