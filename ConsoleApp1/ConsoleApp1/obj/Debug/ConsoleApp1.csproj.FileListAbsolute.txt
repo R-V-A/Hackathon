@@ -14,3 +14,11 @@ C:\Users\Administrator\Source\Repos\Hackathon\ConsoleApp1\ConsoleApp1\obj\Debug\
 C:\Users\Administrator\Source\Repos\Hackathon\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.GenerateResource.Cache
 C:\Users\Administrator\Source\Repos\Hackathon\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\Administrator\Source\Repos\Hackathon\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\Repos\Hackathon\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\Repos\Hackathon\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\Repos\Hackathon\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\Repos\Hackathon\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
+D:\Repos\Hackathon\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.Properties.Resources.resources
+D:\Repos\Hackathon\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.GenerateResource.Cache
+D:\Repos\Hackathon\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\Repos\Hackathon\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
