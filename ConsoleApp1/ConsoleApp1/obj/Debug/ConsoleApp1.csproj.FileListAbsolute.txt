@@ -6,3 +6,11 @@ c:\users\administrator\documents\visual studio 2017\Projects\ConsoleApp1\Console
 c:\users\administrator\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.GenerateResource.Cache
 c:\users\administrator\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 c:\users\administrator\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\Repos\Hackathon\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\Repos\Hackathon\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\Repos\Hackathon\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\Repos\Hackathon\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
+D:\Repos\Hackathon\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.Properties.Resources.resources
+D:\Repos\Hackathon\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.GenerateResource.Cache
+D:\Repos\Hackathon\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\Repos\Hackathon\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

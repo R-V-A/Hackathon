@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public struct Coordinates
+    public struct Coordinate
     {
         public int x;
         public int y;
@@ -14,17 +14,13 @@ namespace ConsoleApp1
 
     public class Person
     {
-        int _credits;
-        int _power;
-        int _authority;
-        Coordinates _coordinates;
+        public int _power;
+        protected int _authority;
+        protected Coordinate _coordinates;
 
-        public Person(int credits, int power, int authority, Coordinates coordinates)
+        public Person(Coordinate coordinates)
         {
-            _credits = credits;
-            _power = power;
-            _authority = authority;
             _coordinates = coordinates;
         }
-    }
+    }    
 }
