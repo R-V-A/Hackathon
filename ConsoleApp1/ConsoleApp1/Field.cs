@@ -15,8 +15,8 @@ namespace ConsoleApp1
         }
         public Field()
         {
-            for (int i = 1; i < 24; i++)
-                for (int j = 1; j < 24; j++)
+            for (int i = 1; i < 26; i++)
+                for (int j = 1; j < 26; j++)
                     _cells[i, j] = new Cell(TypeOfCell.Empty);
             for (int i = 1; i < 26; i++)
             {
