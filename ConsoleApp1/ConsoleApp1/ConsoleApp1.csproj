@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Cell.cs" />
     <Compile Include="Field.cs" />
+    <Compile Include="MainCharacter.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

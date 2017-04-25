@@ -6,24 +6,20 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public struct Coordinates
-    {
-        public int x;
-        public int y;
-    }
-
     public class Person
     {
-        int _credits;
-        int _power;
-        int _authority;
-        Coordinates _coordinates;
-
-        public Person(int credits, int power, int authority, Coordinates coordinates)
+        protected int _power;
+        protected int _authority;
+        public struct Coordinate
         {
-            _credits = credits;
-            _power = power;
-            _authority = authority;
+            public int x;
+            public int y;
+        }
+
+        public Coordinate _coordinates;
+        
+        protected Person(Coordinate coordinates)
+        {
             _coordinates = coordinates;
         }
     }

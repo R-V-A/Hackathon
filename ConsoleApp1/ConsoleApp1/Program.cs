@@ -11,30 +11,24 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Field f = new Field();
-            while (true)
-            {
-                Show(f);
-                
-            }
-            
+
+            var x = Int32.Parse(Console.ReadLine());
+            var y = Int32.Parse(Console.ReadLine());
+
+            Person.Coordinate coordinates;
+            coordinates.x = x;
+            coordinates.y = y;
+
+            MainCharacter P = new MainCharacter(coordinates);
+
+            var action = Console.ReadLine();
+            if (action == "1")
+                P._coordinates.y ++ ;
+
+            Console.WriteLine(P.Show(P._coordinates));
+            Console.ReadKey();
         }
 
-        static void Show(Field f)
-        {
-            Console.SetCursorPosition(0, 0);
-            for (int x = 0; x < 25; x++)
-            {
-                for (int y = 0; y < 25; y++)
-                {
-                    switch (f[x,y].CellType)
-                    {
-                        case TypeOfCell.Empty:
-                            Console.Write("E");
-                            break;
-                    }
-                }
-                Console.WriteLine();
-            }
-        }
+        
     }
 }
