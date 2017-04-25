@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public enum TypeOfCell { Empty, NotEmpty, Wall}
+    public enum TypeOfCell { Empty, NotEmpty, WWall, HWall }
     public class Cell
     {
         TypeOfCell _cellType;
