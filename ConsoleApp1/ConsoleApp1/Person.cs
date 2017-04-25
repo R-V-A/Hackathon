@@ -11,11 +11,20 @@ namespace ConsoleApp1
         public int x;
         public int y;
     }
-    class Person
+
+    public class Person
     {
         int _credits;
         int _power;
         int _authority;
         Coordinates _coordinates;
+
+        public Person(int credits, int power, int authority, Coordinates coordinates)
+        {
+            _credits = credits;
+            _power = power;
+            _authority = authority;
+            _coordinates = coordinates;
+        }
     }
 }
