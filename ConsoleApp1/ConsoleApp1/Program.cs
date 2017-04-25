@@ -11,20 +11,41 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Field f = new Field();
-
-            var x = Int32.Parse(Console.ReadLine());
-            var y = Int32.Parse(Console.ReadLine());
-
+            int x = 0;
+            int y = 0;
+            Console.WriteLine("Введите начальные координаты");
+            while (true)
+            { 
+                try
+                {
+                    x = Int32.Parse(Console.ReadLine());
+                    y = Int32.Parse(Console.ReadLine());
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Ожидалось целое число");
+                    continue;               
+                }
+                break;
+            }
             Person.Coordinate coordinates;
             coordinates.x = x;
             coordinates.y = y;
 
             MainCharacter P = new MainCharacter(coordinates);
-
+            Console.WriteLine("Ваш ход");
             while (true)
             {
+                Console.WriteLine("");
                 if (P._coordinates.x == 25 || P._coordinates.y == 25)
+                {
+                    Console.WriteLine("Следующий шаг в этом же напрвлении приведет у смерти");
+                }
+                if (P._coordinates.x == 26 || P._coordinates.y == 26)
+                {
+
                     break;
+                }
                 var action = Console.ReadLine();
                 switch (action)
                 {
@@ -37,7 +58,7 @@ namespace ConsoleApp1
                 Console.WriteLine(P.Show(P._coordinates));
             }
 
-            Console.WriteLine(P.Show(P._coordinates));
+            Console.WriteLine("Падение с платформы\nИгра окончена");
             Console.ReadKey();
         }
 
